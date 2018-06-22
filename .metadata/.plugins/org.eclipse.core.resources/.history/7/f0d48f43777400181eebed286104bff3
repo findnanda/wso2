@@ -1,3 +1,0 @@
-<api xmlns="http://ws.apache.org/ns/synapse" context="/first" name="RestApiDemo" hostname="localhost" port="8280">
-<resource methods="GET"><inSequence/><outSequence/><faultSequence/></resource>
-</api>

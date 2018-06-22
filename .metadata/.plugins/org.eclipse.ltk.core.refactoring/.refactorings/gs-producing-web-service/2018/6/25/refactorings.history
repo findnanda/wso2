@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring accessors="true" comment="Delete 5 elements from project &apos;gs-producing-web-service&apos;&#x0A;- Original project: &apos;gs-producing-web-service&apos;&#x0A;- Original elements:&#x0A;     build.gradle&#x0A;     gradlew&#x0A;     gradlew.bat&#x0A;     mvnw&#x0A;     mvnw.cmd" description="Delete elements" element1="gradlew.bat" element2="build.gradle" element3="gradlew" element4="mvnw" element5="mvnw.cmd" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="5" stamp="1529612854199" subPackages="false" version="1.0"/>
-</session>

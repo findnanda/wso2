@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename package &apos;com.wso2.demo&apos; to &apos;com.demo.wso2&apos;&#x0A;- Original project: &apos;ESBValidator&apos;&#x0A;- Original element: &apos;ESBValidator/src/main/java/com.wso2.demo&apos;&#x0A;- Renamed element: &apos;ESBValidator/src/main/java/com.demo.wso2&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.wso2.demo&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;com.wso2.demo" name="com.demo.wso2" qualified="false" references="true" stamp="1529614873449" textual="false" version="1.0"/>
-</session>

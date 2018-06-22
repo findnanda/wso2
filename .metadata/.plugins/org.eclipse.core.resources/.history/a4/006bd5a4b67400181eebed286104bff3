@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<endpoint name="SpringBootMicroService" xmlns="http://ws.apache.org/ns/synapse">
-    <address format="get" uri="http://localhist:8080/greeting"/>
-</endpoint>
