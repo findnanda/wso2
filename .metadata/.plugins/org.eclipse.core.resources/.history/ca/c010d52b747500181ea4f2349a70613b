@@ -1,0 +1,10 @@
+<proxy xmlns="http://ws.apache.org/ns/synapse" name="ProxySServiceDemo"
+	transports="https,http" statistics="disable" trace="disable"
+	startOnLoad="true">
+	<target  endpoint="SpringBootMicroService">
+		<outSequence>
+			<send />
+		</outSequence>
+		
+	</target>
+</proxy>

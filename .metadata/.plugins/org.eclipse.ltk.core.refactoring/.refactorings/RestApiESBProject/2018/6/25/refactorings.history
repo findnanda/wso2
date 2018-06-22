@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;RestApiESBProject/src/main/synapse-config/endpoints/RestMicroserviceAPIEndPoint.xml&apos; to &apos;SpringBootMicroserviceAPI.xml&apos;" description="Rename resource &apos;RestMicroserviceAPIEndPoint.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/synapse-config/endpoints/RestMicroserviceAPIEndPoint.xml" name="SpringBootMicroserviceAPI.xml" stamp="1529518016054" updateReferences="true"/>
+</session>

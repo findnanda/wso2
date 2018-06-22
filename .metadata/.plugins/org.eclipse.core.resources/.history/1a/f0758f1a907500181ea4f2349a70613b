@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="RestApiDemo" groupId="com.nanda.wso2.RestApiESBProject.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/RestApiDemo.xml</file>
+    </artifact>
+    <artifact name="RestAPISequence" groupId="com.nanda.wso2.RestApiESBProject.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/RestAPISequence.xml</file>
+    </artifact>
+    <artifact name="SpringBootMicroService" groupId="com.nanda.wso2.RestApiESBProject.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/SpringBootMicroService.xml</file>
+    </artifact>
+    <artifact name="PostCodeEP" groupId="com.nanda.wso2.RestApiESBProject.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/PostCodeEP.xml</file>
+    </artifact>
+    <artifact name="CalculatorProxy" groupId="com.nanda.wso2.RestApiESBProject.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/CalculatorProxy.xml</file>
+    </artifact>
+</artifacts>

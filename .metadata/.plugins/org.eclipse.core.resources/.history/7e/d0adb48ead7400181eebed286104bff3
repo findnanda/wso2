@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoint name="RestMicroserviceAPIEndPoint" xmlns="http://ws.apache.org/ns/synapse">
+    <http method="get" trace="enable" uri-template="http://localhost:8080/greeting"/>
+</endpoint>

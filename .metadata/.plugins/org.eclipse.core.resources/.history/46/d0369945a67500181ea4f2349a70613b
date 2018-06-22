@@ -1,0 +1,13 @@
+<proxy xmlns="http://ws.apache.org/ns/synapse" name="ESBProxy"
+	transports="https,http" statistics="disable" trace="disable"
+	startOnLoad="true">
+	<target >
+		<outSequence>
+			<send />
+		</outSequence>
+		<endpoint
+		name="endpoint_urn_uuid_6d6c3dee-d4c1-4ee4-8b45-df41004677b8">
+		<address uri="http://" />
+		</endpoint>
+	</target>
+</proxy>

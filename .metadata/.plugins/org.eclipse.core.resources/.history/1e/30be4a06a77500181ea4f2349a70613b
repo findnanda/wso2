@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://ws.apache.org/ns/synapse">
+    <proxy name="StockQuoteProxy" startOnLoad="true" transports="https http">
+        <target>
+            <inSequence/>
+            <outSequence>
+                <send/>
+            </outSequence>
+            <faultSequence/>
+        </target>
+        <publishWSDL preservePolicy="true" uri="file:samples/service-bus/resources/proxy/sample_proxy_1.wsdl"/>
+    </proxy>
+</definitions>

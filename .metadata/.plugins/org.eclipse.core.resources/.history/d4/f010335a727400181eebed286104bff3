@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="wso2Api" groupId="com.nanda.wso2.RestApiESBProject.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/wso2Api.xml</file>
+    </artifact>
+</artifacts>

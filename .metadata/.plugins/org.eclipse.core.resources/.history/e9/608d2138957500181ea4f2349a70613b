@@ -1,0 +1,14 @@
+package com.wso2.demo;
+
+import org.wso2.carbon.dataservices.core.engine.ParamValue; 
+import org.wso2.carbon.dataservices.core.validation.ValidationContext; 
+import org.wso2.carbon.dataservices.core.validation.ValidationException; 
+import org.wso2.carbon.dataservices.core.validation.Validator;
+
+public class FirstNameValidator implements Validator { 
+
+	public void validate(ValidationContext arg0, String arg1, ParamValue arg2) throws ValidationException { 
+		// TODO Implement your logic here 
+		
+	}
+}

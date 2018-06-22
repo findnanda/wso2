@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="RestAPISequence" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log>
+        <property expression="$url:username" name="username"/>
+    </log>
+    <filter regex="null" source="json-eval($username)">
+        <then>
+            <payloadFactory media-type="json">
+                <format>{ "StockQuotes": { "Stock":  $1 } }</format>
+                <args>
+                    <arg evaluator="json" expression="$.username"/>
+                </args>
+            </payloadFactory>
+        </then>
+        <else>
+            <payloadFactory media-type="json">
+                <format>{ "StockQuotes": { "Stock": [ $1 ] } }</format>
+                <args>
+                    <arg evaluator="json" expression="$.username"/>
+                </args>
+            </payloadFactory>
+        </else>
+    </filter>
+</sequence>

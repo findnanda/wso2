@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.wso2.demo.FirstNameValidtor&apos; to &apos;FirstNameValidator&apos;&#x0A;- Original project: &apos;CustomMediatorESB&apos;&#x0A;- Original element: &apos;com.wso2.demo.FirstNameValidtor&apos;&#x0A;- Renamed element: &apos;com.wso2.demo.FirstNameValidator&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;FirstNameValidtor&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;com.wso2.demo{FirstNameValidtor.java[FirstNameValidtor" matchStrategy="1" name="FirstNameValidator" qualified="false" references="true" similarDeclarations="false" stamp="1529605007735" textual="false" version="1.0"/>
+</session>
